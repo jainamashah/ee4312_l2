@@ -1,0 +1,14 @@
+# relative to this file, the dataset is contained in `datasets/ee4312_l2/`
+# images are located in the `datasets/ee4312_l2/images/` folder.
+# labels are located in the `datasets/ee4312_l2/labels/` folder.
+
+path: ./datasets/ee4312_l2/
+train: images/
+val: images/
+test: images/
+
+# Classes names must start from `0`, then `1`, etc.
+names:
+  0: class0
+  1: class1
+  2: class2
